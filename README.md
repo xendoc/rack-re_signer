@@ -8,7 +8,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rack-re_signer', github: 'https://github.com/xendoc/rack-re_signer'
+gem 'rack-re_signer', github: 'xendoc/rack-re_signer'
 ```
 
 And then execute:
