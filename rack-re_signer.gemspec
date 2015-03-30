@@ -18,10 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rack", ">= 1.1"
+  spec.add_dependency "rack", "~> 1.5"
 
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency 'rspec', '~> 2.7'
+  spec.add_development_dependency 'rspec', '~> 2.14'
   spec.add_development_dependency "rack-test"
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "guard-bundler"
